@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="estilos.css" />
+<link href="https://fonts.googleapis.com/css?family=Anton|Hind" rel="stylesheet">
+ <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+    <title>Arctic Monkeys</title>
+    
+
+</head>
+
+<body>
+    <div class="caja">
+    
+     <header>
+       <div class="header">        
+        <nav>
+            <ul>
+                
+                <li><a href="index.html"><!-- <i class="icon ion-ios-star"> --></i> INICIO</a></li>
+                <li></i><a href="discografia.html">  DISCOGRAFIA</a></li>       
+                <li></i><a href="contacto.html"></i> CONTACTO</a></li>
+            </ul>
+
+        </nav> 
+        </div>
+
+    </header>
+
+
+     <div class="principal">
+         <h1>CONTACTO</h1>
+	<form action="proceso-formulario.php">
+    <fieldset>
+        <legend>Datos personales</legend>
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="apellido" placeholder="Apellido" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+    </fieldset>
+    <fieldset>
+        <legend>Informacion opcional</legend>
+        <label>Motivo de contacto</label>
+        <select name="elegir">
+            <option value="contrataciones">CONTRATACIONES</option>
+            <option value="consultas">CONSULTAS</option>
+            <option value="consultas">COMPRAS</option>
+            
+        </select> <br><br>
+        <textarea name="" id="" cols="30" rows="3" placeholder="Comentarios"></textarea><br>
+        <input type="radio" name="sexo" value="masculino" checked> Masculino<br>
+        <input type="radio" name="sexo" value="femenino"> Femenino<br>
+                <input type="checkbox" name="newsletter" value="Auto"> Deseo suscribirme al newsletter
+    </fieldset>
+    <br>
+    <input type="submit" value="Enviar">
+     <input type="reset" value="Borrar">
+</form>
+</div>
+
+       <footer>
+     <nav>
+            <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                <li><a href="discografia.html">DISCOGRAFIA</a></li>       
+                <li><a href="contacto.html"> CONTACTO</a></li>
+            </ul>
+
+        </nav> 
+    </footer>
+</div>
+</body>
+
+</html>

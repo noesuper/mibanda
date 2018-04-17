@@ -1,0 +1,70 @@
+
+
+<!doctype html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	
+	 .piece {
+    margin: 0 2px;
+    overflow: hidden;
+    position: relative;
+    width: calc(25% - 4px);
+}
+
+ .piece a {
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+ .piece .subtitle {
+    z-index: 9;
+    width: 100%;
+    bottom: -100%;
+    display: block;
+    color: #ffffff;
+    font-size: 46px;
+    padding: 0 15px;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 1px rgba(17, 14, 18, 0.35);
+    transition: bottom .5s cubic-bezier(0, 0, 0.52, 1.38);
+}
+
+ .piece:hover .subtitle {
+    bottom: 20px;
+}
+
+.piece .shadow {
+    left: 0;
+    bottom: 0;
+    z-index: 8;
+    width: 100%;
+    height: 25%;
+    display: block;
+    position: absolute;
+    transition: height .5s ease;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%);
+}
+
+ .piece:hover .shadow {
+    height: 100%;
+}
+</style>
+</head>
+<body><div class="piece">
+      <a href="/cocina"></a>
+      <span class="subtitle">Cocina</span>
+      <span class="shadow"></span>
+      <img src="https://arredo.vteximg.com.br/arquivos/home-4-3.png?v=636486926159930000" alt="Inspirate y elegí tu hogar" class=" softLoaded">
+    </div></body>
+</html>
+

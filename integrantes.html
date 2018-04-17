@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+<link rel="stylesheet" href="estilos.css" />
+<link href="https://fonts.googleapis.com/css?family=Anton|Hind" rel="stylesheet">
+ <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+
+    <title>Arctic Monkeys</title>
+    
+
+</head>
+
+<body>
+
+    <div class="caja">
+
+    <header>
+       <div class="header">        
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a>
+                    <ul id="submenu">
+                        <li><a href="integrantes.html">INTEGRANTES</a></li>
+                         <li><a href="fechas.html">FECHAS</a></li>
+                    </ul></li>
+                <li><a href="discografia.html">DISCOGRAFIA</a>
+                <ul id="submenu">
+                        <li><a href="store.html">STORE</a></li>
+                    </ul>  </li>     
+                <li><a href="contacto.html"> CONTACTO</a></li>
+            </ul>
+
+        </nav> 
+        </div>
+
+    </header>
+   
+
+
+    <div class="principal">
+    
+    <div class="foto"><img class="foto1" src="http://www.indiehoy.com/wp-content/uploads/2014/07/alex-turner.jpg">
+        <div class="texto"><p>Alexander David Turner (Sheffield, 6 de enero de 1986) es un músico británico, más conocido por ser el vocalista, guitarrista y compositor principal de la banda de indie rock Arctic Monkeys.</p></div>
+    </div>
+    
+    </div>
+
+   
+<style type="text/css">
+    
+.foto{
+  
+   position: relative;
+   float: left;
+   display: block;
+   margin-left: 400px;
+}
+.foto img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+ .foto .texto{
+    z-index: 900;
+    width: 70%;
+    display: block;
+    color: #ffffff;
+    font-size: 46px;
+    padding: 0 15px;
+    font-weight: 900;
+    text-align: left;
+    opacity: 0;
+    position: relative;
+    box-sizing: border-box;
+    transform: translate(0px);
+    transition: all 500ms ease-in-out;
+    float: right;
+}
+
+ .foto:hover  .texto  {
+    opacity: 1;
+    transform:translate(-90px,0px);
+
+}
+
+
+</style>
+
+
+
+<footer>
+    <div class="menufooter">
+     <nav>
+                 <ul id="menu2">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="discografia.html">DISCOGRAFIA</a></li>       
+                <li><a href="contacto.html"> CONTACTO</a></li>
+            </ul>
+
+        </nav>
+        </div> 
+    </footer>
+
+    </div>
+    
+
+</body>
+
+</html>
